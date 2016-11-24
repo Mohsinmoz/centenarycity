@@ -1,0 +1,302 @@
+/***contact us***/
+.banner {
+    float: left;
+    width: 100%;
+}
+
+    .banner img {
+        float: left;
+        width: 100%;
+    }
+
+.contact {
+    float: left;
+    width: 100%;
+    background: #4d4643;
+    margin-bottom: 10px;
+}
+
+    .contact .left-panel {
+        float: left;
+        width: 100%;
+        background: #fff;
+    }
+
+    .contact .right-panel {
+        float: left;
+        width: 100%;
+        background: #4d4643;
+    }
+
+    .contact .content {
+        float: left;
+        padding: 0 8% 0 8%;
+    }
+
+        .contact .content h2 {
+            float: left;
+            width: 100%;
+            font-size: 36px;
+            text-transform: uppercase;
+            font-weight: 300;
+            /*
+            border-bottom: 1px solid #dcb968;
+            padding-bottom: 20px;
+            margin-bottom: 30px;*/
+        }
+        
+       .form-head{
+        float:left;
+        width:100%;
+        border-bottom: 1px solid #dcb968;
+        padding: 20px 0 20px 0;
+        margin-bottom: 30px;
+        }
+    .contact .content {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        width: 84%;
+    }
+
+    .contact .left-panel .content h2 {
+        color: #595250;
+    }
+
+    .contact .right-panel .content h2 {
+        color: #ffffff;
+    }
+
+    .contact fieldset legend {
+        float: left;
+        font-size: 18px;
+        color: #595250;
+        text-transform: uppercase;
+        font-weight: 300;
+        width: 100%;
+    }
+
+    .contact fieldset label {
+        float: left;
+        color: #a7a7a7;
+        font-weight: 300;
+        font-size: 18px;
+        display: inline-block;
+        vertical-align: middle;
+        padding-top: 20px;
+        padding-right: 30px;
+    }
+
+        .contact fieldset label input {
+            float: left;
+            width: 25px;
+            height: 25px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-top: -3px;
+        }
+
+    .contact form {
+        float: left;
+    }
+
+        .contact form fieldset {
+            float: left;
+            width: 45%;
+            padding: 20px 5% 0 0;
+        }
+
+            .contact form fieldset + fieldset + fieldset {
+                width: 50%;
+                padding: 20px 0 0 0;
+            }
+
+            .contact form fieldset label {
+                width: 100%;
+                text-transform: uppercase;
+                color: #595250;
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+                .contact form fieldset label input {
+                    width: 96%;
+                    margin: 5px 0 0 0;
+                    padding: 0 2%;
+                    height: 50px;
+                    background: #e5e4e5;
+                    border: 1px solid #e5e4e5;
+                }
+
+                .contact form fieldset label select {
+                    float: left;
+                    width: 100%;
+                    margin: 5px 0 0 0;
+                    height: 50px;
+                    padding: 0 2%;
+                    background: #e5e4e5;
+                    border: 1px solid #e5e4e5;
+                }
+
+                .contact form fieldset label textarea {
+                    float: left;
+                    width: 100%;
+                    height: 153px;
+                    margin-top: 5px;
+                    background: #e5e4e5;
+                    border: 1px solid #e5e4e5;
+                }
+
+.submit-btn {
+    float: left;
+    width: 100%;
+    max-width: 290px;
+    background: #dcb968;
+    clear: left;
+    margin-top: 40px;
+}
+
+    .submit-btn a {
+        float: left;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+.right-panel .content {
+    width: 84%;
+}
+
+    .right-panel .content ul {
+        float: left;
+        width: 100%;
+    }
+
+        .right-panel .content ul li {
+            float: left;
+            width: 100%;
+            border-bottom: 1px solid #5f5956;
+            padding: 30px 0;
+        }
+
+            .right-panel .content ul li:last-child {
+                border: 0;
+            }
+
+            .right-panel .content ul li h6 {
+                float: left;
+                font-size: 18px;
+                font-weight: 300;
+                text-transform: uppercase;
+                color: #ffffff;
+                width: 100%;
+            }
+
+            .right-panel .content ul li p {
+                float: left;
+                width: 100%;
+                padding: 5px 0;
+                color: #fff;
+            }
+
+                .right-panel .content ul li p a {
+                    color: #fff;
+                }
+
+                    .right-panel .content ul li p a:hover {
+                        color: #dcb968;
+                    }
+
+.contact form fieldset label.radio input {
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.contact form fieldset label.radio {
+    float: left;
+    width: auto;
+}
+
+.g-recaptcha {
+    margin-top: 20px;
+    float: left;
+}
+
+/*MODIFIED*/
+
+.contact form fieldset.fsInterested {
+    width: auto;
+    padding: 0;
+    float: none;
+}
+
+    .contact form fieldset.fsInterested label {
+        float: left;
+        color: #a7a7a7;
+        font-weight: 300;
+        font-size: 18px;
+        display: inline-block;
+        vertical-align: middle;
+        padding-top: 20px;
+        padding-right: 30px;
+        width: auto;
+        text-transform: none;
+    }
+
+    .contact form fieldset.fsInterested input {
+        float: left;
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: -3px 3px 3px 4px;
+        padding: 0;
+        background: none;
+    }
+
+.Error {
+    color: red !important;
+}
+.msg {
+display:none
+}
+.Error .msg {
+    display: block;
+    font-size:14px;
+    margin-top:10px;
+
+      display: inline-block;
+  float: left;
+  width:100%;
+
+}
+.contact form fieldset label.Error select {
+    border: 1px solid red;
+}
+
+.contact form fieldset label.Error input {
+    border: 1px solid red;
+}
+
+.g-recaptcha.Error {
+    border: 1px solid red;
+}
+
+.form-thankyou h6{
+    color:green;
+}
+
+
+@media all and (max-width: 760px) {
+    .contact form fieldset {
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+
+        .contact form fieldset + fieldset + fieldset {
+            width: 100%;
+        }
+}
